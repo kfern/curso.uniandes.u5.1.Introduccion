@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Escenas/Fisica y movimiento 2D.unity
-  isLoaded: 1
-  isActive: 1
