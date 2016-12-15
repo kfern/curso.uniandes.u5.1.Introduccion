@@ -35,10 +35,7 @@ public class Destruir : StateMachineBehaviour {
 
 	// OnStateMachineExit is called when exiting a statemachine via its Exit Node
 	override public void OnStateMachineExit(Animator animator, int stateMachinePathHash) {
-		//Para encontrar al padre de forma genérica se busca un BoxCollider2D. 
-		//Se podría usar cualquier componente, scripts incluidos
-		GameObject Animado = animator.gameObject;
-		GameObject Padre = Animado.GetComponentInParent<BoxCollider2D> ().gameObject;
-		Destroy (Padre);	
+		//Se destruye el raiz 
+		Destroy (animator.gameObject.transform.root.gameObject);	
 	}
 }
