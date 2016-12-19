@@ -14,3 +14,10 @@ Para la escena inicial se utilizarán los siguientes recursos:
 ## Semana 2. Física y movimiento 2D.
 - Animaciones para el Personaje A (full plate golden armor). Para el resultado ver el vídeo: [Animaciones Personaje A](https://youtu.be/m3_ASWdZ2zM)
 
+## Semana 3. Animaciones.
+- Animaciones para el Personaje A (full plate golden armor) e Insecto A. Para el resultado ver el vídeo: [Animaciones Personaje A e Insecto A](https://youtu.be/GxKLwcn-zSE).
+El personaje A es un Sprite animado mediante Animator. Como no dispongo de gráficos para animar los movimientos en diagonal tengo que seleccionar para estos movimientos el predominante.
+El insecto A es un objeto compuesto por animaciones de sprites (rombo animado) y animaciones mediante cálculos matemáticos, ya que no estoy usando un Rigidbody.
+
+
+
