@@ -30,9 +30,7 @@ public class Controlador_Insecto_A : MonoBehaviour {
 		//https://forum.unity3d.com/threads/manually-calculate-angular-velocity-of-gameobject.289462/
 	    //The fancy, relevent math
 		//References to the relevent axis angle variables
-		float magnitude;
-		Vector3 axis;
-
+		float magnitude; Vector3 axis;
         Quaternion deltaRotation = transform.rotation * Quaternion.Inverse (lastRotation);
         deltaRotation.ToAngleAxis(out magnitude, out axis);
         lastRotation = transform.rotation;
