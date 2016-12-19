@@ -1,8 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Destruir.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Insecto A\Controladores\Controlador_Insecto_A.cs">
     <Files>
       <File FileName="Assets\Scripts\Destruir.cs" Line="38" Column="33" />
+      <File FileName="Assets\Controladores\Controlador_Personaje_A.cs" Line="59" Column="30" />
+      <File FileName="Assets\Insecto A\Controladores\Controlador_Insecto_A.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
